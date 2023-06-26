@@ -1,0 +1,333 @@
+/* ---------- UNIVERSAL STYLES ---------- */
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #F2F2F2;
+}
+
+
+/* ---------- GRID ---------- */
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 5fr 2fr;
+    column-gap: 20px;
+    text-align: center;
+}
+
+/*.section-header {
+    grid-column-start: 1;
+    transform-origin: top right;
+    transform: rotate(-90deg);
+    text-align: right;
+    margin: 0;
+}*/
+
+.abme-header {
+    grid-column-start: 1;
+    text-align: right;
+    margin: 0;
+    color: #E54F26;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.exp-header {
+    grid-column-start: 1;
+    text-align: right;
+    margin: 0;
+    color:#E7A020;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.wk-header {
+    grid-column-start: 1;
+    text-align: right;
+    margin: 0;
+    color:#037CB8;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.art-header {
+    grid-column-start: 1;
+    text-align: right;
+    margin: 0;
+    color:#E98A32;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.con-header {
+    grid-column-start: 1;
+    text-align: right;
+    margin: 0;
+    color:#4D9F4A;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+header {
+    text-align: center;
+    padding-top: 10px;
+    color:#037CB8
+}
+
+
+/* ----------NAVIGATION ---------- */
+
+
+nav {
+    background-color: #FFFFFF;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    text-align: right;
+    height: 60px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 15px 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+#logo {
+    float: left;
+    color: #FFFFFF;
+    font-style: italic;
+}
+
+.logo-button {
+    background-color: #080680;
+    padding: 2.5px 20px;
+    border-radius: 20px;
+}
+
+.abme-button {
+    background-color:#E54F26;
+    padding: 2px 20px;
+    border-radius: 20px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #E54F26;
+}
+
+.exp-button {
+    background-color:#E7A020;
+    padding: 2px 20px;
+    border-radius: 20px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #E7A020;
+}
+
+.wk-button {
+    background-color:#037CB8;
+    padding: 2px 20px;
+    border-radius: 20px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    text-decoration-color:#037CB8;
+}
+
+.art-button {
+    background-color:#E98A32;
+    padding: 2px 20px;
+    border-radius: 20px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    text-decoration-color:#E98A32;
+}
+
+.con-button {
+    background-color: #4D9F4A;
+    padding: 2px 20px;
+    border-radius: 20px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    text-decoration-color:#4D9F4A
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -200px;
+    visibility: hidden;
+}
+
+a.secondaryanchor {
+    display: block;
+    position: relative;
+    visibility: hidden;
+    top: -300px;
+    grid-column: span 3;
+}
+
+/* ---------- INTRO SECTION ---------- */
+
+
+#intro {
+    margin-top: 250px;
+    grid-column-start: 2;
+    margin-bottom: 500px;
+}
+
+#intro img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+
+/* ---------- ABOUT ME SECTION ---------- */
+
+
+#aboutme {
+    margin-bottom: 500px;
+    grid-column-start: 2;
+    border-left: 3px solid #E54F26;
+    padding-left: 20px;
+    text-align: left;
+}
+
+#aboutme ul, li {
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+    }
+
+.proficient, .learning {
+    text-align: left;
+}
+
+
+/* ---------- EXPERIENCE SECTION ---------- */
+
+
+#experience {
+    margin-bottom: 500px;
+    grid-column-start: 2;
+    border-left: 3px solid #E7A020;
+    padding-left: 20px;
+    text-align: left;
+}
+
+#experience ul, li {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.my-quali {
+    text-align: left;
+}
+
+.quali {
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.quali-provider {
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+
+.cv {
+    text-align: left;
+}
+
+
+/* ---------- WORK SECTION ---------- */
+
+
+#work {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 500px;
+    border-left: 3px solid #037CB8;
+    padding-left: 20px;
+}
+
+/* #work div {
+    border: 1px solid red;
+} */
+
+#work img {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    object-position: center center;
+}
+
+
+
+/* ---------- ART SECTION ---------- */
+
+
+#art {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 500px;
+    border-left: 3px solid #E98A32;
+    padding-left: 20px;
+}
+
+#art div {
+    padding: 0;
+}
+
+#art img {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    object-position: center center;
+}
+
+/* ---------- CONTACT SECTION ---------- */
+
+
+#contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-left: 3px solid #4D9F4A;
+    margin-bottom: 500px;
+    padding-left: 20px;
+}
+
+
+/* ---------- RESPONSIVENESS ---------- */
+
+
+
